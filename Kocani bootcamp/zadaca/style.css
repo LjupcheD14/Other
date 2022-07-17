@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 4vh;
+    background-color: rgb(2, 83, 83);
+}
+.logo{
+    display: flex;
+    width: 25%;
+    float: left;
+    margin-right: 150px;
+}
+.logo img{
+    padding: 10px;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+.nav-links li{
+    list-style: none;
+    margin-top: 3vh;
+    width: 200px;
+    padding: 15px;
+}
+.nav-links a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+.nav-links a:hover{
+    color: rgb(230, 230, 230);
+}
+.slika img {
+    width: 100%;
+    height: 500px;
+    position: relative;
+    z-index: 0;
+}
+.slika h1{
+    position: relative;
+    margin-top: -120px;
+    color: white;
+    background-color: rgb(244, 128, 128);
+    width: 257px;
+    margin-left: 50px;
+    padding: 5px;
+    z-index: 1;
+}
+.content{
+    margin-top: 100px;
+    width: 100%;
+}
+.content h1{
+    text-align: center;
+    text-transform: uppercase;
+}
+section{
+    width: 100%;
+    margin-top: -100px;
+}
+.slika1{
+    width: 49%;
+}
+.tekst{
+    width: 49%;
+    text-align: justify;
+    font-size: 18px;
+    font-weight: bold;
+}
+#left{
+    float: left;
+}
+#right{
+    float: right;
+}
+.part{
+    clear: both;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 50px;
+}
+footer{
+    width: 100%;
+    margin-top: 300px;
+    background-color: rgb(67, 67, 67);
+    color: white;
+}
+footer pre{
+    padding: 50px;
+}
+footer pre span{
+    font-size: 32px;
+    font-weight: bold;
+}
+footer ul {
+    margin-top: -150px;
+    margin-right: 50px;
+    float: right;
+    list-style: none;
+}
+footer ul li a{
+    color: white;
+    text-decoration: none;
+}
+.last{
+    color: white;
+    background-color: rgb(44, 44, 44);
+}
+.last p{
+    font-size: 18px;
+    margin-left: 75px;
+    padding: 50px;
+}
+footer img{
+    margin-left: 600px;
+    margin-top: -600px;
+}
